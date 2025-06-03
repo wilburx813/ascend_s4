@@ -1,0 +1,67 @@
+{
+  "Pows": {
+    "dynamicRankSupport": true,
+    "simplifiedKeyMode": 0,
+    "optionalInputMode": "gen_placeholder",
+    "optionalOutputMode": "gen_placeholder",
+    "params": {
+      "inputs": [
+        {
+          "name": "x1",
+          "index": 0,
+          "paramType": "required",
+          "formatMode": "static_nd_agnostic"
+        },
+        {
+          "name": "x2",
+          "index": 1,
+          "paramType": "required",
+          "formatMode": "static_nd_agnostic"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "y",
+          "index": 0,
+          "paramType": "required",
+          "formatMode": "static_nd_agnostic"
+        }
+      ]
+    },
+    "binaryList": [
+      {
+        "coreType": 2,
+        "simplifiedKey": [
+          "Pows/d=0,p=1/1,2/1,2/1,2",
+          "Pows/d=0,p=0/1,2/1,2/1,2",
+          "Pows/d=1,p=1/1,2/1,2/1,2",
+          "Pows/d=1,p=0/1,2/1,2/1,2"
+        ],
+        "binPath": "ascend310b/pows/Pows_076e20dfb5ef675fa9e9556c39bee126.o",
+        "jsonPath": "ascend310b/pows/Pows_076e20dfb5ef675fa9e9556c39bee126.json"
+      },
+      {
+        "coreType": 2,
+        "simplifiedKey": [
+          "Pows/d=0,p=1/0,2/0,2/0,2",
+          "Pows/d=0,p=0/0,2/0,2/0,2",
+          "Pows/d=1,p=1/0,2/0,2/0,2",
+          "Pows/d=1,p=0/0,2/0,2/0,2"
+        ],
+        "binPath": "ascend310b/pows/Pows_745813d136694c7eaf6c17ae7dbaa1d5.o",
+        "jsonPath": "ascend310b/pows/Pows_745813d136694c7eaf6c17ae7dbaa1d5.json"
+      },
+      {
+        "coreType": 2,
+        "simplifiedKey": [
+          "Pows/d=0,p=1/27,2/27,2/27,2",
+          "Pows/d=0,p=0/27,2/27,2/27,2",
+          "Pows/d=1,p=1/27,2/27,2/27,2",
+          "Pows/d=1,p=0/27,2/27,2/27,2"
+        ],
+        "binPath": "ascend310b/pows/Pows_e8a4790a7ba58d6d7edd0f9ee1835df8.o",
+        "jsonPath": "ascend310b/pows/Pows_e8a4790a7ba58d6d7edd0f9ee1835df8.json"
+      }
+    ]
+  }
+}
